@@ -1,0 +1,8 @@
+schemaVersion: 2.1.0
+metadata:
+  name: developer-images
+components:
+  - name: devtools
+    container:
+      image: okdreg.gudanggaramtbk.com:5002/udi/devspaces-udi:3.10
+      memoryLimit: 2Gi
